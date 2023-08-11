@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="assets/styles/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="assets/styles/style.css" />
+  </head>
+  <style>
+    .header {
+      display: flex;
+      padding: 20px 30px;
+      justify-content: space-between;
+    }
+    .logo {
+      width: 205px;
+      height: 43px;
+    }
+    .nav {
+      color: inherit;
+      font-weight: 500;
+      text-decoration: none;
+      align-items: center;
+      text-decoration: none;
+    }
+    .menu {
+      text-decoration: none;
+      color: black;
+      padding: 10px;
+    }
+    .menu1 {
+      text-decoration: none;
+      color: green;
+    }
+    .main {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 40px 0px 300px 0px;
+    }
+    .info {
+      grid-column: 1 / 3;
+      grid-row: 1;
+      max-width: 600px;
+      order: 1;
+      padding: 0px 56px;
+    }
+    .picture {
+      background-image: url(assets/images/blob-shape\ 1.png);
+      grid-column: 2 / 3;
+      grid-row: 1;
+      height: 570px;
+      width: 1012px;
+    }
+    .button {
+      background-color: green;
+      border-radius: 8px;
+      border: none;
+      font-family: "Times New Roman", Times, serif;
+      font-size: 18px;
+      margin-top: 40px;
+      padding: 20px 24px;
+    }
+    .h1 {
+      font-family: "DM Serif Display", serif;
+      font-size: 64px;
+      line-height: 1.1;
+      margin: 0;
+    }
+    .p {
+      font-size: 24px;
+      margin: 24px 0 0 0;
+    }
+  </style>
+  <body>
+    <header class="header">
+      <img class="logo" src="assets/images/Logo.png" alt="logo" />
+      <nav class="nav">
+        <a class="menu" href="..."> Why Open Enterprise</a>
+        <a class="menu" href="..."> Features</a>
+        <a class="menu" href="..."> Contribute</a>
+        <a class="menu1" href="..."> Request early access</a>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="info">
+        <h1 class="h1">A new model for <br />open colaboration</h1>
+        <p class="p">
+          Run an organization where members get rewarded for <br />their
+          contributions with fractional ownership.
+        </p>
+      </div>
+      <img class="picture" src="assets/images/Illustration.png" alt="Picture" />
+      <button class="button">
+        <div class="buttontext">Request early access</div>
+      </button>
+    </main>
+  </body>
+</html>

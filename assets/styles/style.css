@@ -1,0 +1,8 @@
+.menu1 .menu2 .menu3 .menu4 :hover {
+    text-decoration: underline; 
+  }
+
+  .menu1 .menu2 .menu3 .menu4 :visited {
+    text-decoration: underline;
+    text-decoration: blue;
+  }
